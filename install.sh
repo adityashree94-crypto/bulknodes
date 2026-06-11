@@ -31,3 +31,16 @@ echo "============================================================"
 echo "            Thank you for choosing BulkNodes"
 echo "============================================================"
 echo ""
+
+# Show system information
+if command -v neofetch >/dev/null 2>&1; then
+    neofetch
+else
+    echo "[INFO] neofetch not found."
+    echo "[INFO] Install with: apt install -y neofetch"
+fi
+
+echo ""
+echo "============================================================"
+echo "               Powered by BulkNodes"
+echo "============================================================"
